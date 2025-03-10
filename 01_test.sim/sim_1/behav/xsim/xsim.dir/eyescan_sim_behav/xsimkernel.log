@@ -1,7 +1,0 @@
-Running: xsim.dir/eyescan_sim_behav/xsimk.exe -simmode gui -wdb eyescan_sim_behav.wdb -simrunnum 0 -socket 65306
-Design successfully loaded
-Design Loading Memory Usage: 86664 KB (Peak: 86664 KB)
-Design Loading CPU Usage: 249 ms
-Simulation completed
-Simulation Memory Usage: 161588 KB (Peak: 161588 KB)
-Simulation CPU Usage: 26967 ms
