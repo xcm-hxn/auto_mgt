@@ -1,0 +1,26 @@
+Time resolution is 1 fs
+=====================================================================================================
+The selected configuration may or may not achieve stable PRBS-based link in loopback, due to its use
+of either a disabled or custom comma, modified comma mask, channel bonding sequence(s), or clock
+correction sequence(s). When using these features, user-specified bit patterns cause feature-specific
+behavior that may periodically disrupt the data stream due to coincidental matches of the provided
+PRBS pattern, causing checker mismatches and resulting in no, or lost lock. The IP core therefore
+disables checking of the PRBS-based link status within this simulation testbench. This simulation will
+simply run for a short period of time and then end with a test completed successfully message, but it
+should not be construed to mean that data integrity was observed in this configuration. You may wish
+to extend this simulation period to observe actual behavior, which is not predictable by this IP core.
+=====================================================================================================
+=====================================================================================================
+The selected configuration may or may not achieve stable PRBS-based link in loopback, due to its use
+of either a disabled or custom comma, modified comma mask, channel bonding sequence(s), or clock
+correction sequence(s). When using these features, user-specified bit patterns cause feature-specific
+behavior that may periodically disrupt the data stream due to coincidental matches of the provided
+PRBS pattern, causing checker mismatches and resulting in no, or lost lock. The IP core therefore
+disables checking of the PRBS-based link status within this simulation testbench. This simulation will
+simply run for a short period of time and then end with a test completed successfully message, but it
+should not be construed to mean that data integrity was observed in this configuration. You may wish
+to extend this simulation period to observe actual behavior, which is not predictable by this IP core.
+=====================================================================================================
+Time :     50000000 ps   STOP: data integrity could not be *guaranteed* in this configuration
+** Test completed successfully
+INFO: xsimkernel Simulation Memory Usage: 161588 KB (Peak: 161588 KB), Simulation CPU Usage: 26967 ms

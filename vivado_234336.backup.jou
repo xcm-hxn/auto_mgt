@@ -1,0 +1,324 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Thu Feb  6 09:14:45 2025
+# Process ID: 234336
+# Current directory: C:/10_in_system_ibert/01_test
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11408 C:\10_in_system_ibert\01_test\01_test.xpr
+# Log file: C:/10_in_system_ibert/01_test/vivado.log
+# Journal file: C:/10_in_system_ibert/01_test\vivado.jou
+# Running On: pc-xiancaima, OS: Windows, CPU Frequency: 1997 MHz, CPU Physical cores: 6, Host memory: 16853 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/10_in_system_ibert/01_test/01_test.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+file mkdir C:/10_in_system_ibert/01_test/01_test.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/10_in_system_ibert/01_test/01_test.srcs/sim_1/new/eyescan_sim.v w ]
+add_files -fileset sim_1 C:/10_in_system_ibert/01_test/01_test.srcs/sim_1/new/eyescan_sim.v
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+launch_simulation
+launch_simulation
+source eyescan_sim.tcl
+restart
+run all
+restart
+run all
+save_wave_config {C:/10_in_system_ibert/01_test/eyescan_sim_behav.wcfg}
+add_files -fileset sim_1 -norecurse C:/10_in_system_ibert/01_test/eyescan_sim_behav.wcfg
+set_property xsim.view C:/10_in_system_ibert/01_test/eyescan_sim_behav.wcfg [get_filesets sim_1]
+close_sim
+launch_simulation
+open_wave_config C:/10_in_system_ibert/01_test/eyescan_sim_behav.wcfg
+source eyescan_sim.tcl
+restart
+run all
+close_sim
+launch_simulation
+open_wave_config C:/10_in_system_ibert/01_test/eyescan_sim_behav.wcfg
+source eyescan_sim.tcl
+restart
+run all
+close_sim
+launch_simulation
+open_wave_config C:/10_in_system_ibert/01_test/eyescan_sim_behav.wcfg
+source eyescan_sim.tcl
+restart
+run all
+close_sim
+launch_simulation
+open_wave_config C:/10_in_system_ibert/01_test/eyescan_sim_behav.wcfg
+source eyescan_sim.tcl
+restart
+run all
+restart
+run all
+save_wave_config {C:/10_in_system_ibert/01_test/eyescan_sim_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/10_in_system_ibert/01_test/eyescan_sim_behav.wcfg
+source eyescan_sim.tcl
+restart
+run all
+save_wave_config {C:/10_in_system_ibert/01_test/eyescan_sim_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/10_in_system_ibert/01_test/eyescan_sim_behav.wcfg
+source eyescan_sim.tcl
+restart
+run all
+close_sim
+launch_simulation
+open_wave_config C:/10_in_system_ibert/01_test/eyescan_sim_behav.wcfg
+source eyescan_sim.tcl
+restart
+run all
+close_sim
+launch_simulation
+open_wave_config C:/10_in_system_ibert/01_test/eyescan_sim_behav.wcfg
+source eyescan_sim.tcl
+restart
+run all
+close_sim
+launch_simulation
+open_wave_config C:/10_in_system_ibert/01_test/eyescan_sim_behav.wcfg
+source eyescan_sim.tcl
+restart
+run all
+close_sim
+launch_simulation
+open_wave_config C:/10_in_system_ibert/01_test/eyescan_sim_behav.wcfg
+source eyescan_sim.tcl
+restart
+run all
+close_sim
+launch_simulation
+open_wave_config C:/10_in_system_ibert/01_test/eyescan_sim_behav.wcfg
+source eyescan_sim.tcl
+restart
+run all
+close_sim
+launch_simulation
+open_wave_config C:/10_in_system_ibert/01_test/eyescan_sim_behav.wcfg
+source eyescan_sim.tcl
+restart
+run all
+close_sim
+launch_simulation
+open_wave_config C:/10_in_system_ibert/01_test/eyescan_sim_behav.wcfg
+source eyescan_sim.tcl
+restart
+run all
+close_sim
+launch_simulation
+open_wave_config C:/10_in_system_ibert/01_test/eyescan_sim_behav.wcfg
+source eyescan_sim.tcl
+restart
+run all
+close_sim
+launch_simulation
+open_wave_config C:/10_in_system_ibert/01_test/eyescan_sim_behav.wcfg
+source eyescan_sim.tcl
+restart
+run all
+close_sim
+launch_simulation
+open_wave_config C:/10_in_system_ibert/01_test/eyescan_sim_behav.wcfg
+source eyescan_sim.tcl
+restart
+run all
+close_sim
+launch_simulation
+open_wave_config C:/10_in_system_ibert/01_test/eyescan_sim_behav.wcfg
+source eyescan_sim.tcl
+restart
+run all
+close_sim
+launch_simulation
+open_wave_config C:/10_in_system_ibert/01_test/eyescan_sim_behav.wcfg
+source eyescan_sim.tcl
+restart
+run all
+close_sim
+launch_simulation
+open_wave_config C:/10_in_system_ibert/01_test/eyescan_sim_behav.wcfg
+source eyescan_sim.tcl
+restart
+run all
+run all
+close_sim
+launch_simulation
+open_wave_config C:/10_in_system_ibert/01_test/eyescan_sim_behav.wcfg
+source eyescan_sim.tcl
+restart
+run all
+run all
+close_sim
+file mkdir C:/10_in_system_ibert/01_test/01_test.srcs/constrs_1
+file mkdir C:/10_in_system_ibert/01_test/01_test.srcs/constrs_1/new
+close [ open C:/10_in_system_ibert/01_test/01_test.srcs/constrs_1/new/eyescan.xdc w ]
+add_files -fileset constrs_1 C:/10_in_system_ibert/01_test/01_test.srcs/constrs_1/new/eyescan.xdc
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+show_objects -name NET_ONLY [get_nets -hierarchical -top_net_of_hierarchical_group "*drp*" ]
+show_objects -name NET_ONLY [get_nets -hierarchical -top_net_of_hierarchical_group "*drpdo_int*" ]
+show_objects -name NET_ONLY [get_nets -hierarchical -top_net_of_hierarchical_group "*drprdy_int*" ]
+show_objects -name NET_ONLY [get_nets -hierarchical -top_net_of_hierarchical_group "*drpaddr_int*" ]
+show_objects -name NET_ONLY [get_nets -hierarchical -top_net_of_hierarchical_group "*drpwe_int*" ]
+show_objects -name NET_ONLY [get_nets -hierarchical -top_net_of_hierarchical_group "*drpen_int*" ]
+show_objects -name NET_ONLY [get_nets -hierarchical -top_net_of_hierarchical_group "*drpdi_int*" ]
+show_objects -name NET_ONLY [get_nets -hierarchical -top_net_of_hierarchical_group "*trigger_int*" ]
+create_debug_core u_ila_0 ila
+set_property C_DATA_DEPTH 1024 [get_debug_cores u_ila_0]
+set_property C_TRIGIN_EN false [get_debug_cores u_ila_0]
+set_property C_TRIGOUT_EN false [get_debug_cores u_ila_0]
+set_property C_ADV_TRIGGER false [get_debug_cores u_ila_0]
+set_property C_INPUT_PIPE_STAGES 0 [get_debug_cores u_ila_0]
+set_property C_EN_STRG_QUAL false [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU_CNT 1 [get_debug_cores u_ila_0]
+connect_debug_port u_ila_0/clk [get_nets [list hb_gtwiz_reset_clk_freerun_buf_int ]]
+set_property port_width 16 [get_debug_ports u_ila_0/probe0]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe0]
+connect_debug_port u_ila_0/probe0 [get_nets [list {drpdi_int[0]} {drpdi_int[1]} {drpdi_int[2]} {drpdi_int[3]} {drpdi_int[4]} {drpdi_int[5]} {drpdi_int[6]} {drpdi_int[7]} {drpdi_int[8]} {drpdi_int[9]} {drpdi_int[10]} {drpdi_int[11]} {drpdi_int[12]} {drpdi_int[13]} {drpdi_int[14]} {drpdi_int[15]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 10 [get_debug_ports u_ila_0/probe1]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe1]
+connect_debug_port u_ila_0/probe1 [get_nets [list {drpaddr_int[0]} {drpaddr_int[1]} {drpaddr_int[2]} {drpaddr_int[3]} {drpaddr_int[4]} {drpaddr_int[5]} {drpaddr_int[6]} {drpaddr_int[7]} {drpaddr_int[8]} {drpaddr_int[9]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 16 [get_debug_ports u_ila_0/probe2]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe2]
+connect_debug_port u_ila_0/probe2 [get_nets [list {drpdo_int[0]} {drpdo_int[1]} {drpdo_int[2]} {drpdo_int[3]} {drpdo_int[4]} {drpdo_int[5]} {drpdo_int[6]} {drpdo_int[7]} {drpdo_int[8]} {drpdo_int[9]} {drpdo_int[10]} {drpdo_int[11]} {drpdo_int[12]} {drpdo_int[13]} {drpdo_int[14]} {drpdo_int[15]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe3]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe3]
+connect_debug_port u_ila_0/probe3 [get_nets [list drprdy_int ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe4]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe4]
+connect_debug_port u_ila_0/probe4 [get_nets [list drpwe_int ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe5]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe5]
+connect_debug_port u_ila_0/probe5 [get_nets [list drpen_int ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe6]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe6]
+connect_debug_port u_ila_0/probe6 [get_nets [list trigger_int_IBUF ]]
+close [ open C:/10_in_system_ibert/01_test/01_test.srcs/constrs_1/new/debug.xdc w ]
+add_files -fileset constrs_1 C:/10_in_system_ibert/01_test/01_test.srcs/constrs_1/new/debug.xdc
+set_property target_constrs_file C:/10_in_system_ibert/01_test/01_test.srcs/constrs_1/new/debug.xdc [current_fileset -constrset]
+save_constraints -force
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+close_design
+launch_simulation
+open_wave_config C:/10_in_system_ibert/01_test/eyescan_sim_behav.wcfg
+source eyescan_sim.tcl
+restart
+run all
+close_sim
+launch_simulation
+open_wave_config C:/10_in_system_ibert/01_test/eyescan_sim_behav.wcfg
+source eyescan_sim.tcl
+restart
+run all
+close_sim
+launch_simulation
+open_wave_config C:/10_in_system_ibert/01_test/eyescan_sim_behav.wcfg
+source eyescan_sim.tcl
+restart
+run all
+close_sim
+launch_simulation
+open_wave_config C:/10_in_system_ibert/01_test/eyescan_sim_behav.wcfg
+source eyescan_sim.tcl
+restart
+run all
+close_sim
+launch_simulation
+open_wave_config C:/10_in_system_ibert/01_test/eyescan_sim_behav.wcfg
+source eyescan_sim.tcl
+restart
+run all
+close_sim
+launch_simulation
+open_wave_config C:/10_in_system_ibert/01_test/eyescan_sim_behav.wcfg
+source eyescan_sim.tcl
+restart
+run all
+close_sim
+launch_simulation
+open_wave_config C:/10_in_system_ibert/01_test/eyescan_sim_behav.wcfg
+source eyescan_sim.tcl
+restart
+run all
+close_sim
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+current_hw_device [get_hw_devices xc7z045_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z045_1] 0]
+set_property PROBES.FILE {C:/03_SGBUS/selectmap_test01/design_1_wrapper.ltx} [get_hw_devices xc7z045_1]
+set_property FULL_PROBES.FILE {C:/03_SGBUS/selectmap_test01/design_1_wrapper.ltx} [get_hw_devices xc7z045_1]
+set_property PROGRAM.FILE {C:/03_SGBUS/selectmap_test01/design_1_wrapper.bit} [get_hw_devices xc7z045_1]
+program_hw_devices [get_hw_devices xc7z045_1]
+refresh_hw_device [lindex [get_hw_devices xc7z045_1] 0]
+close_hw_manager
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:\03_SGBUS\selectmap_test01\design_1_wrapper.bit} [get_hw_devices xc7z045_1]
+set_property PROBES.FILE {C:\03_SGBUS\selectmap_test01\design_1_wrapper.ltx} [get_hw_devices xc7z045_1]
+set_property FULL_PROBES.FILE {C:\03_SGBUS\selectmap_test01\design_1_wrapper.ltx} [get_hw_devices xc7z045_1]
+current_hw_device [get_hw_devices xc7z045_1]
+refresh_hw_device [lindex [get_hw_devices xc7z045_1] 0]
+set_property PROBES.FILE {C:/03_SGBUS/selectmap_test01/design_1_wrapper.ltx} [get_hw_devices xc7z045_1]
+set_property FULL_PROBES.FILE {C:/03_SGBUS/selectmap_test01/design_1_wrapper.ltx} [get_hw_devices xc7z045_1]
+set_property PROGRAM.FILE {C:/03_SGBUS/selectmap_test01/design_1_wrapper.bit} [get_hw_devices xc7z045_1]
+program_hw_devices [get_hw_devices xc7z045_1]
+refresh_hw_device [lindex [get_hw_devices xc7z045_1] 0]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z045_1] -filter {CELL_NAME=~"design_1_i/system_ila_0/inst/ila_lib"}]]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_2 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z045_1] -filter {CELL_NAME=~"design_1_i/system_ila_1/inst/ila_lib"}]]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_3 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z045_1] -filter {CELL_NAME=~"u_ila_0"}]]
+set_property TRIGGER_COMPARE_VALUE eq1'bR [get_hw_probes design_1_i/system_ila_0/inst/net_slot_0_axis_tvalid -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z045_1] -filter {CELL_NAME=~"design_1_i/system_ila_0/inst/ila_lib"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z045_1] -filter {CELL_NAME=~"design_1_i/system_ila_0/inst/ila_lib"}]
+set_property TRIGGER_COMPARE_VALUE eq1'bR [get_hw_probes design_1_i/system_ila_1/inst/net_slot_0_axis_tvalid -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z045_1] -filter {CELL_NAME=~"design_1_i/system_ila_1/inst/ila_lib"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z045_1] -filter {CELL_NAME=~"design_1_i/system_ila_1/inst/ila_lib"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z045_1] -filter {CELL_NAME=~"design_1_i/system_ila_1/inst/ila_lib"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z045_1] -filter {CELL_NAME=~"design_1_i/system_ila_1/inst/ila_lib"}]]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z045_1] -filter {CELL_NAME=~"design_1_i/system_ila_0/inst/ila_lib"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z045_1] -filter {CELL_NAME=~"design_1_i/system_ila_0/inst/ila_lib"}]]
+save_wave_config {C:/10_in_system_ibert/01_test/01_test.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
+save_wave_config {C:/10_in_system_ibert/01_test/01_test.hw/hw_1/wave/hw_ila_data_2/hw_ila_data_2.wcfg}
+save_wave_config {C:/10_in_system_ibert/01_test/01_test.hw/hw_1/wave/hw_ila_data_3/hw_ila_data_3.wcfg}
+close_hw_manager
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:\03_SGBUS\selectmap_test01\design_1_wrapper.bit} [get_hw_devices xc7z045_1]
+set_property PROBES.FILE {C:\03_SGBUS\selectmap_test01\design_1_wrapper.ltx} [get_hw_devices xc7z045_1]
+set_property FULL_PROBES.FILE {C:\03_SGBUS\selectmap_test01\design_1_wrapper.ltx} [get_hw_devices xc7z045_1]
+current_hw_device [get_hw_devices xc7z045_1]
+refresh_hw_device [lindex [get_hw_devices xc7z045_1] 0]
+set_property PROBES.FILE {C:/03_SGBUS/selectmap_test01/design_1_wrapper.ltx} [get_hw_devices xc7z045_1]
+set_property FULL_PROBES.FILE {C:/03_SGBUS/selectmap_test01/design_1_wrapper.ltx} [get_hw_devices xc7z045_1]
+set_property PROGRAM.FILE {C:/03_SGBUS/selectmap_test01/design_1_wrapper.bit} [get_hw_devices xc7z045_1]
+program_hw_devices [get_hw_devices xc7z045_1]
+refresh_hw_device [lindex [get_hw_devices xc7z045_1] 0]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z045_1] -filter {CELL_NAME=~"design_1_i/system_ila_0/inst/ila_lib"}]]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_2 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z045_1] -filter {CELL_NAME=~"design_1_i/system_ila_1/inst/ila_lib"}]]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_3 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z045_1] -filter {CELL_NAME=~"u_ila_0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z045_1] -filter {CELL_NAME=~"design_1_i/system_ila_0/inst/ila_lib"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z045_1] -filter {CELL_NAME=~"design_1_i/system_ila_0/inst/ila_lib"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z045_1] -filter {CELL_NAME=~"design_1_i/system_ila_0/inst/ila_lib"}]]
+save_wave_config {C:/10_in_system_ibert/01_test/01_test.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
+save_wave_config {C:/10_in_system_ibert/01_test/01_test.hw/hw_1/wave/hw_ila_data_2/hw_ila_data_2.wcfg}
+save_wave_config {C:/10_in_system_ibert/01_test/01_test.hw/hw_1/wave/hw_ila_data_3/hw_ila_data_3.wcfg}
+close_hw_manager

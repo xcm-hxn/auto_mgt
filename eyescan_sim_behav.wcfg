@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="eyescan_sim_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="eyescan_sim" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000000 us"></ZoomStartTime>
+      <ZoomEndTime time="12.970000001 us"></ZoomEndTime>
+      <Cursor1Time time="19.876469406 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="254"></NameColumnWidth>
+      <ValueColumnWidth column_width="120"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="28" />
+   <wvobject fp_name="/eyescan_sim/ch0_gtyxn" type="logic">
+      <obj_property name="ElementShortName">ch0_gtyxn</obj_property>
+      <obj_property name="ObjectShortName">ch0_gtyxn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eyescan_sim/ch0_gtyxp" type="logic">
+      <obj_property name="ElementShortName">ch0_gtyxp</obj_property>
+      <obj_property name="ObjectShortName">ch0_gtyxp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eyescan_sim/trigger_int" type="logic">
+      <obj_property name="ElementShortName">trigger_int</obj_property>
+      <obj_property name="ObjectShortName">trigger_int</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eyescan_sim/mgtrefclk0_x0y1" type="logic">
+      <obj_property name="ElementShortName">mgtrefclk0_x0y1</obj_property>
+      <obj_property name="ObjectShortName">mgtrefclk0_x0y1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eyescan_sim/gtwiz_reset_clk_freerun" type="logic">
+      <obj_property name="ElementShortName">gtwiz_reset_clk_freerun</obj_property>
+      <obj_property name="ObjectShortName">gtwiz_reset_clk_freerun</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eyescan_sim/hb_gtwiz_reset_all" type="logic">
+      <obj_property name="ElementShortName">hb_gtwiz_reset_all</obj_property>
+      <obj_property name="ObjectShortName">hb_gtwiz_reset_all</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eyescan_sim/eyescan_inst/prbs_error_any_sync" type="logic">
+      <obj_property name="ElementShortName">prbs_error_any_sync</obj_property>
+      <obj_property name="ObjectShortName">prbs_error_any_sync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eyescan_sim/eyescan_inst/link_ctr" type="array">
+      <obj_property name="ElementShortName">link_ctr[6:0]</obj_property>
+      <obj_property name="ObjectShortName">link_ctr[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eyescan_sim/eyescan_inst/prbs_match_int" type="array">
+      <obj_property name="ElementShortName">prbs_match_int[0:0]</obj_property>
+      <obj_property name="ObjectShortName">prbs_match_int[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eyescan_sim/link_status" type="logic">
+      <obj_property name="ElementShortName">link_status</obj_property>
+      <obj_property name="ObjectShortName">link_status</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eyescan_sim/eyescan_inst/drp_interface_lane0/drp_clk" type="logic">
+      <obj_property name="ElementShortName">drp_clk</obj_property>
+      <obj_property name="ObjectShortName">drp_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eyescan_sim/eyescan_inst/drp_interface_lane0/drp_rst" type="logic">
+      <obj_property name="ElementShortName">drp_rst</obj_property>
+      <obj_property name="ObjectShortName">drp_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eyescan_sim/eyescan_inst/drp_interface_lane0/drp_do_i" type="array">
+      <obj_property name="ElementShortName">drp_do_i[15:0]</obj_property>
+      <obj_property name="ObjectShortName">drp_do_i[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eyescan_sim/eyescan_inst/drp_interface_lane0/drp_rdy_i" type="logic">
+      <obj_property name="ElementShortName">drp_rdy_i</obj_property>
+      <obj_property name="ObjectShortName">drp_rdy_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eyescan_sim/eyescan_inst/drp_interface_lane0/drp_addr_o" type="array">
+      <obj_property name="ElementShortName">drp_addr_o[9:0]</obj_property>
+      <obj_property name="ObjectShortName">drp_addr_o[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eyescan_sim/eyescan_inst/drp_interface_lane0/drp_we_o" type="logic">
+      <obj_property name="ElementShortName">drp_we_o</obj_property>
+      <obj_property name="ObjectShortName">drp_we_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eyescan_sim/eyescan_inst/drp_interface_lane0/drp_en_o" type="logic">
+      <obj_property name="ElementShortName">drp_en_o</obj_property>
+      <obj_property name="ObjectShortName">drp_en_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eyescan_sim/eyescan_inst/drp_interface_lane0/drp_di_o" type="array">
+      <obj_property name="ElementShortName">drp_di_o[15:0]</obj_property>
+      <obj_property name="ObjectShortName">drp_di_o[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eyescan_sim/eyescan_inst/drp_interface_lane0/trigger_go" type="logic">
+      <obj_property name="ElementShortName">trigger_go</obj_property>
+      <obj_property name="ObjectShortName">trigger_go</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eyescan_sim/eyescan_inst/drp_interface_lane0/drp_reg_t" type="array">
+      <obj_property name="ElementShortName">drp_reg_t</obj_property>
+      <obj_property name="ObjectShortName">drp_reg_t</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eyescan_sim/eyescan_inst/drp_interface_lane0/drp_fsm_curr" type="array">
+      <obj_property name="ElementShortName">drp_fsm_curr[6:0]</obj_property>
+      <obj_property name="ObjectShortName">drp_fsm_curr[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eyescan_sim/eyescan_inst/hb0_gtwiz_userdata_tx_int" type="array">
+      <obj_property name="ElementShortName">hb0_gtwiz_userdata_tx_int[31:0]</obj_property>
+      <obj_property name="ObjectShortName">hb0_gtwiz_userdata_tx_int[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eyescan_sim/eyescan_inst/hb0_gtwiz_userdata_rx_int" type="array">
+      <obj_property name="ElementShortName">hb0_gtwiz_userdata_rx_int[31:0]</obj_property>
+      <obj_property name="ObjectShortName">hb0_gtwiz_userdata_rx_int[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eyescan_sim/eyescan_inst/example_checking_inst0/prbs_any_chk_error_int" type="array">
+      <obj_property name="ElementShortName">prbs_any_chk_error_int[31:0]</obj_property>
+      <obj_property name="ObjectShortName">prbs_any_chk_error_int[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eyescan_sim/eyescan_inst/example_checking_inst0/prbs_any_chk_inst/RST" type="logic">
+      <obj_property name="ElementShortName">RST</obj_property>
+      <obj_property name="ObjectShortName">RST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eyescan_sim/eyescan_inst/example_checking_inst0/prbs_any_chk_inst/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eyescan_sim/eyescan_inst/example_checking_inst0/prbs_any_chk_inst/data_in_i" type="array">
+      <obj_property name="ElementShortName">data_in_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eyescan_sim/eyescan_inst/example_checking_inst0/prbs_any_chk_inst/prbs_xor_a" type="array">
+      <obj_property name="ElementShortName">prbs_xor_a[31:0]</obj_property>
+      <obj_property name="ObjectShortName">prbs_xor_a[31:0]</obj_property>
+   </wvobject>
+</wave_config>

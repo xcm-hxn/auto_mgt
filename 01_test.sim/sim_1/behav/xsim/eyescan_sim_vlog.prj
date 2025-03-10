@@ -1,0 +1,29 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../01_test.srcs/sources_1/new" \
+"../../../../01_test.gen/sources_1/ip/gtwizard_ultrascale_0/sim/gtwizard_ultrascale_v1_7_gtye4_channel.v" \
+"../../../../01_test.gen/sources_1/ip/gtwizard_ultrascale_0/sim/gtwizard_ultrascale_0_gtye4_channel_wrapper.v" \
+"../../../../01_test.gen/sources_1/ip/gtwizard_ultrascale_0/sim/gtwizard_ultrascale_v1_7_gtye4_common.v" \
+"../../../../01_test.gen/sources_1/ip/gtwizard_ultrascale_0/sim/gtwizard_ultrascale_0_gtye4_common_wrapper.v" \
+"../../../../01_test.gen/sources_1/ip/gtwizard_ultrascale_0/sim/gtwizard_ultrascale_0_gtwizard_gtye4.v" \
+"../../../../01_test.gen/sources_1/ip/gtwizard_ultrascale_0/sim/gtwizard_ultrascale_0_gtwizard_top.v" \
+"../../../../01_test.gen/sources_1/ip/gtwizard_ultrascale_0/sim/gtwizard_ultrascale_0.v" \
+"../../../../01_test.srcs/sources_1/new/gtwizard_ultrascale_0_example_bit_synchronizer.v" \
+"../../../../01_test.srcs/sources_1/new/gtwizard_ultrascale_0_example_checking_8b10b.v" \
+"../../../../01_test.srcs/sources_1/new/gtwizard_ultrascale_0_example_init.v" \
+"../../../../01_test.srcs/sources_1/new/gtwizard_ultrascale_0_example_reset_synchronizer.v" \
+"../../../../01_test.srcs/sources_1/new/gtwizard_ultrascale_0_example_stimulus_8b10b.v" \
+"../../../../01_test.srcs/sources_1/new/gtwizard_ultrascale_0_example_wrapper.v" \
+"../../../../01_test.srcs/sources_1/new/gtwizard_ultrascale_0_prbs_any.v" \
+
+sv xil_defaultlib  --include "../../../../01_test.srcs/sources_1/new" \
+"../../../../01_test.srcs/sources_1/new/drp_interface.sv" \
+"../../../../01_test.srcs/sources_1/new/eyescan.sv" \
+
+verilog xil_defaultlib  --include "../../../../01_test.srcs/sources_1/new" \
+"../../../../01_test.srcs/sim_1/new/eyescan_sim.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
