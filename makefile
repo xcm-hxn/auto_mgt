@@ -6,6 +6,7 @@ BRANCH := main
 LATEST_COMMIT := $(shell git ls-remote origin $(BRANCH) | awk '{print $$1}')
 LOCAL_COMMIT := $(shell git rev-parse HEAD)
 UNCOMMITTED_CHANGES := $(shell git status --porcelain)
+MSG := $(ibert_16G)
 
 .PHONY: all check update merge axi_lite_gen rollback clean report
 
@@ -65,9 +66,10 @@ merge:
 	@git pull origin $(BRANCH) --no-rebase
 
 push:
+	@echo "Enter commit push ..."
 	@git status
 	@git add ./
-	@git commit -m "ibert_test"
+	@git commit -m "$$MSG"
 	@git push -u origin $(BRANCH) 
 
 sgbus_ibert:
