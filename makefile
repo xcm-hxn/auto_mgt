@@ -68,7 +68,7 @@ push:
 	@git status
 	@git add ./
 	@git commit -m "ibert_test"
-	@git push origin $(BRANCH) 
+	@git push -u origin $(BRANCH) 
 
 sgbus_ibert:
 	@echo "Running sgbus axi lite master transactor stub generation script on Slurm..."
