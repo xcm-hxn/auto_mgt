@@ -1,0 +1,73 @@
+set_property -dict {PACKAGE_PIN BY44 IOSTANDARD LVDS} [get_ports sgbus_clkp]
+set_property -dict {PACKAGE_PIN BU21 IOSTANDARD LVCMOS18} [get_ports sgbus_rst_n]
+set_property -dict {PACKAGE_PIN AK9} [get_ports aurora_txp]
+set_property -dict {PACKAGE_PIN AL11} [get_ports aurora_refclkp]
+
+set_property -dict {PACKAGE_PIN E20 IOSTANDARD LVDS} [get_ports gtwiz_reset_clk_freerun_in_p]
+
+
+set_property -dict {PACKAGE_PIN CB9} [get_ports quad220_clk_p]  
+set_property -dict {PACKAGE_PIN CC7} [get_ports quad220_ch0_gtytxp_out]
+set_property -dict {PACKAGE_PIN CB5} [get_ports quad220_ch1_gtytxp_out]
+set_property -dict {PACKAGE_PIN CA7} [get_ports quad220_ch2_gtytxp_out]
+set_property -dict {PACKAGE_PIN BW7} [get_ports quad220_ch3_gtytxp_out]
+
+set_property -dict {PACKAGE_PIN BW11} [get_ports quad221_clk_p] 
+set_property -dict {PACKAGE_PIN BV9}  [get_ports quad221_ch0_gtytxp_out]
+set_property -dict {PACKAGE_PIN BU7}  [get_ports quad221_ch1_gtytxp_out]
+set_property -dict {PACKAGE_PIN BT9}  [get_ports quad221_ch2_gtytxp_out]
+set_property -dict {PACKAGE_PIN BR7}  [get_ports quad221_ch3_gtytxp_out]
+
+set_property -dict {PACKAGE_PIN BR11} [get_ports quad222_clk_p]
+set_property -dict {PACKAGE_PIN BP9} [get_ports quad222_ch0_gtytxp_out]
+set_property -dict {PACKAGE_PIN BN7} [get_ports quad222_ch1_gtytxp_out]
+set_property -dict {PACKAGE_PIN BM9} [get_ports quad222_ch2_gtytxp_out]
+set_property -dict {PACKAGE_PIN BL7} [get_ports quad222_ch3_gtytxp_out]
+
+set_property -dict {PACKAGE_PIN BJ11} [get_ports quad225_clk_p] 
+set_property -dict {PACKAGE_PIN BK9} [get_ports quad225_ch0_gtytxp_out]
+set_property -dict {PACKAGE_PIN BJ7} [get_ports quad225_ch1_gtytxp_out]
+set_property -dict {PACKAGE_PIN BH9} [get_ports quad225_ch2_gtytxp_out]
+set_property -dict {PACKAGE_PIN BG7} [get_ports quad225_ch3_gtytxp_out]
+
+set_property -dict {PACKAGE_PIN BE11} [get_ports quad226_clk_p] 
+set_property -dict {PACKAGE_PIN BF9} [get_ports quad226_ch0_gtytxp_out]
+set_property -dict {PACKAGE_PIN BE7} [get_ports quad226_ch1_gtytxp_out]
+set_property -dict {PACKAGE_PIN BD9} [get_ports quad226_ch2_gtytxp_out]
+set_property -dict {PACKAGE_PIN BC7} [get_ports quad226_ch3_gtytxp_out]
+
+set_property -dict {PACKAGE_PIN BA11} [get_ports quad227_clk_p] 
+set_property -dict {PACKAGE_PIN BB9} [get_ports quad227_ch0_gtytxp_out]
+set_property -dict {PACKAGE_PIN BA7} [get_ports quad227_ch1_gtytxp_out]
+set_property -dict {PACKAGE_PIN AY9} [get_ports quad227_ch2_gtytxp_out]
+set_property -dict {PACKAGE_PIN AW7} [get_ports quad227_ch3_gtytxp_out]
+
+set_property -dict {PACKAGE_PIN AU11} [get_ports quad230_clk_p] 
+set_property -dict {PACKAGE_PIN AV9} [get_ports quad230_ch0_gtytxp_out]
+set_property -dict {PACKAGE_PIN AU7} [get_ports quad230_ch1_gtytxp_out]
+set_property -dict {PACKAGE_PIN AT9} [get_ports quad230_ch2_gtytxp_out]
+set_property -dict {PACKAGE_PIN AR7} [get_ports quad230_ch3_gtytxp_out]
+
+set_property -dict {PACKAGE_PIN AR11} [get_ports quad231_clk_p] 
+set_property -dict {PACKAGE_PIN AP9} [get_ports quad231_ch0_gtytxp_out]
+set_property -dict {PACKAGE_PIN AN7} [get_ports quad231_ch1_gtytxp_out]
+set_property -dict {PACKAGE_PIN AM9} [get_ports quad231_ch2_gtytxp_out]
+set_property -dict {PACKAGE_PIN AL7} [get_ports quad231_ch3_gtytxp_out]
+
+set_property -dict {PACKAGE_PIN AJ11} [get_ports quad235_clk_p] 
+set_property -dict {PACKAGE_PIN AF9} [get_ports quad235_ch0_gtytxp_out]
+set_property -dict {PACKAGE_PIN AE7} [get_ports quad235_ch1_gtytxp_out]
+set_property -dict {PACKAGE_PIN AD9} [get_ports quad235_ch2_gtytxp_out]
+set_property -dict {PACKAGE_PIN AC7} [get_ports quad235_ch3_gtytxp_out]
+
+set_property -dict {PACKAGE_PIN AE11} [get_ports quad236_clk_p] 
+set_property -dict {PACKAGE_PIN AB9}  [get_ports quad236_ch0_gtytxp_out]
+set_property -dict {PACKAGE_PIN AA7}  [get_ports quad236_ch1_gtytxp_out]
+set_property -dict {PACKAGE_PIN Y9}   [get_ports quad236_ch2_gtytxp_out]
+set_property -dict {PACKAGE_PIN W7}   [get_ports quad236_ch3_gtytxp_out]
+
+set_property -dict {PACKAGE_PIN AA11} [get_ports quad237_clk_p] 
+set_property -dict {PACKAGE_PIN V9} [get_ports quad237_ch0_gtytxp_out]
+set_property -dict {PACKAGE_PIN U7} [get_ports quad237_ch1_gtytxp_out]
+set_property -dict {PACKAGE_PIN T9} [get_ports quad237_ch2_gtytxp_out]
+set_property -dict {PACKAGE_PIN R7} [get_ports quad237_ch3_gtytxp_out]
