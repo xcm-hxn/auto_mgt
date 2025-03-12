@@ -69,7 +69,7 @@ push:
 	@echo "Enter commit push ..."
 	@git status
 	@git add ./
-	@git commit -m "$MSG"
+	@git commit -m "IBERT"
 	@git push -u origin $(BRANCH) 
 
 sgbus_ibert:
